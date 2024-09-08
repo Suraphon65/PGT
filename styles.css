@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;  /* สีพื้นหลังขาวนวล */
+    color: #eb3535;  /* สีตัวหนังสือดำ */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0aa7b8;  /* พื้นหลังหัวข้อเป็นสีดำ */
+    color: #fff;  /* สีตัวหนังสือในหัวข้อเป็นสีขาว */
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px; /* จำกัดความกว้างให้อ่านง่าย */
+    margin: 0 auto;
+}
+
+section {
+    background-color: #fff;  /* พื้นหลังเนื้อหาสีขาว */
+    border: 1px solid #ccc;  /* ขอบเทาอ่อน */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #000;  /* หัวข้อสีดำ */
+}
+
+p {
+    color: #333;  /* ตัวหนังสือสีเทาอ่อนเพื่อไม่ให้ดำเข้มเกินไป */
+}
+
+button {
+    background-color: #000;  /* ปุ่มสีดำ */
+    color: white;  /* ตัวหนังสือในปุ่มสีขาว */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #333;  /* เปลี่ยนสีปุ่มเมื่อ hover เป็นเทาเข้ม */
+}
+
+footer {
+    background-color: #000;  /* พื้นหลัง footer สีดำ */
+    color: white;  /* ตัวหนังสือสีขาว */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
